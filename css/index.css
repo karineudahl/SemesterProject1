@@ -8,23 +8,17 @@
     position: relative;
 }
 
-.home-top__content {
-    position: absolute;
-    bottom: 400px;
-    left: 20px;
-    width: 400px;
-    background-color: #ffffffad;
-    border-radius: 10px;
-    padding: 10px;
-}
-
 .home-explore {
     background-color: #EBF6FD;
-    padding: 10px 40px;
+    padding: 5px 20px 20px 20px;
     margin: 20px;
 }
 
-.home-explore-h2 {
+.home-h2 {
     text-align: center;
+}
+
+.home-pages {
+    margin: 30px 60px;
 }
 

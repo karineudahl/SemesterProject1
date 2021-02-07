@@ -11,8 +11,32 @@ a {
     color: black;
 }
 
-.img-general, 
-.img-explore {
+.img-logo {
+    max-height: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+li {
+    display: inline;
+}
+
+.header-links__big-screen {
+    display: none;
+}
+
+
+.fa-search {
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.img-general {
     width: 100%;
 }
 
@@ -20,4 +44,6 @@ a {
     background-color: #1554B6;
     color: white;
     padding: 7px;
+    display: block;
+    margin: 5px 0px 15px 0px;
 }
