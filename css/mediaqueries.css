@@ -3,11 +3,11 @@
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-    .header-links__big-screen {
-        display: inline;
-    }
+    
 }
 
 @media (min-width: 900px) {
-
+    .header-links__big-screen {
+        display: inline;
+    }
 }

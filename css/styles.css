@@ -1,9 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100%;
+}
+
 h1, h2, h3, a {
     font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.0em;
+}
+
+h3 {
+    font-size: 0.8em;
+}
 p {
     font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.6em;
 }
 
 a {
@@ -12,28 +31,35 @@ a {
 }
 
 .img-logo {
-    max-height: 50px;
+    max-height: 35px;
+    padding-right: 10px;
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 20px;
+    padding: 10px 10px;
 }
 
 li {
     display: inline;
+    padding: 0px 5px;
+    font-size: 0.8em;
+}
+
+ul {
+    padding: 0px;
 }
 
 .header-links__big-screen {
     display: none;
 }
 
-
-.fa-search {
-    font-size: 1.5em;
-    padding: 15px;
+.header-icon {
+    font-size: 1em;
+    padding: 0px 10px 0px 0px;
+    position: absolute;
+    right: 0px;
 }
 
 .img-general {
@@ -46,4 +72,25 @@ li {
     padding: 7px;
     display: block;
     margin: 5px 0px 15px 0px;
+    font-size: 0.8em;
+}
+
+footer {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.footer-links {
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+.fa-instagram, 
+.fa-facebook-f, 
+.fa-snapchat-ghost {
+    padding: 0px 5px;
+    font-size: 1.2em;
 }
