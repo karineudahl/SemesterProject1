@@ -28,8 +28,19 @@ p {
 a {
     text-decoration: none;
     color: black;
+    
 }
 
+li {
+    display: inline;
+    padding: 0px 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 0px;
+}
 .img-logo {
     max-height: 35px;
     padding-right: 10px;
@@ -39,16 +50,11 @@ header {
     display: flex;
     align-items: center;
     padding: 10px 10px;
+    justify-content: space-between;
 }
 
-li {
-    display: inline;
-    padding: 0px 5px;
-    font-size: 0.8em;
-}
-
-ul {
-    padding: 0px;
+.header-links__small-screen {
+    margin-right: 20px;
 }
 
 .header-links__big-screen {
@@ -73,6 +79,7 @@ ul {
     display: block;
     margin: 5px 0px 15px 0px;
     font-size: 0.8em;
+    text-transform: uppercase;
 }
 
 footer {
