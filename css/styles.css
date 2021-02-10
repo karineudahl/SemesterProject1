@@ -13,6 +13,11 @@ h1 {
     font-size: 1.2em;
 }
 
+.h1-margin,
+.li-margin  {
+    margin-left: 20px;
+}
+
 h2 {
     font-size: 1.0em;
 }
@@ -20,6 +25,7 @@ h2 {
 h3 {
     font-size: 0.8em;
 }
+
 p {
     font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.6em;
@@ -28,7 +34,6 @@ p {
 a {
     text-decoration: none;
     color: black;
-    
 }
 
 li {
@@ -38,9 +43,15 @@ li {
     text-transform: uppercase;
 }
 
+li:hover {
+    background-color:#1553b6d3;
+    padding: 20px;
+}
+
 ul {
     padding: 0px;
 }
+
 .img-logo {
     max-height: 35px;
     padding-right: 10px;
@@ -54,11 +65,15 @@ header {
 }
 
 .header-links__small-screen {
-    margin-right: 20px;
-}
+    margin-right: 40px;
+} 
 
 .header-links__big-screen {
     display: none;
+}
+
+.fa-search {
+    color: #103867;
 }
 
 .header-icon {
@@ -66,6 +81,7 @@ header {
     padding: 0px 10px 0px 0px;
     position: absolute;
     right: 0px;
+    color: lawngreen;
 }
 
 .img-general {

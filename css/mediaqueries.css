@@ -18,8 +18,13 @@
         font-size: 0.8em;
     }
     
+    .header-links__small-screen {
+        display: none;
+    }
+
      .header-links__big-screen {
         display: inline;
+        margin-right: 40px;
     }
     
     .home-explore_content,
@@ -36,6 +41,11 @@
     .home-pages__content-content {
         margin: 5px;
     }
+
+    .exhibition {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }    
 }
 
 @media (min-width: 900px) {
@@ -54,7 +64,18 @@
         font-size: 0.9em;
     }
     
-   
+    .header-links__small-screen {
+        display: none;
+    }
+
+     .header-links__big-screen {
+        display: inline;
+        margin-right: 30px;
+    }
+
+    .header-links {
+        padding: 0px 20px;
+    }
 
     .home-explore_content,
     .home-pages__content {
@@ -81,6 +102,15 @@
 
     .home-visit__h3-location {
         margin: 0px;
+    }
+
+    .exhibition {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+    }  
+
+    .involved {
+        display: flex;
     }
 
 }
