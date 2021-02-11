@@ -1,0 +1,13 @@
+.about-text {
+    margin: 30px;
+}
+
+.about-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin: 30px;
+}
+
+.about-images__content {
+    margin: 10px 15px
+}

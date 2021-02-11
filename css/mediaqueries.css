@@ -45,7 +45,12 @@
     .exhibition {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-    }    
+    }
+
+    .visit-content {
+        margin: 30px 50px;
+    }
+    
 }
 
 @media (min-width: 900px) {
@@ -112,5 +117,27 @@
     .involved {
         display: flex;
     }
+ 
+    .involved-content {
+        flex-basis: 33%;
+    }
 
+    .about-text {
+        margin: 50px;
+    }
+
+    .about-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+        margin: 50px;
+    }
+    
+    .visit-content {
+        display: flex;
+    }
+
+    .visit-content__text {
+        margin: 40px;
+        flex-basis: 33%;
+    }
 }
