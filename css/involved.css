@@ -1,3 +1,14 @@
+.involved-background-picture {
+    background: url(../images/involved1.jpg);
+    min-height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    min-width: 100%;
+}
+
 .involved {
     margin: 20px 30px 60px 30px;
 }

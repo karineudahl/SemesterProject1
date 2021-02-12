@@ -1,0 +1,30 @@
+.contact-background-picture {
+    background: url(../images/contact1.jpg);
+    min-height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    min-width: 100%;
+}
+
+.contact-info {
+    margin: 20px 40px;
+}
+
+.form-contact {
+    margin: 0px 40px;
+}
+
+.form-contact__input {
+   display: block;
+   width: 300px;
+   height: 20px;
+   margin-bottom: 15px;
+}
+
+.form-message__input {
+    display: block;
+}
+
