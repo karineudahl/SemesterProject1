@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 
@@ -9,13 +9,13 @@ h1, h2, h3, a {
     font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-    font-size: 1.2em;
+p {
+    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.6em;
 }
 
-.h1-margin,
-.li-margin  {
-    margin-left: 20px;
+h1 {
+    font-size: 1.2em;
 }
 
 h2 {
@@ -26,9 +26,9 @@ h3 {
     font-size: 0.8em;
 }
 
-p {
-    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.6em;
+.h1-margin,
+.li-margin  {
+    margin-left: 20px;
 }
 
 a {
@@ -36,20 +36,25 @@ a {
     color: black;
 }
 
-li {
+ul {
+    padding: 0px;
+}
+
+.header-links {
     display: inline;
     padding: 0px 5px;
     font-size: 0.8em;
     text-transform: uppercase;
 }
 
-li:hover {
+.header-links:hover {
     background-color:#1553b6d3;
     padding: 20px;
 }
 
-ul {
-    padding: 0px;
+.fa-search:hover {
+    background-color:#1553b6d3;
+    padding: 20px 5px;
 }
 
 .img-logo {
@@ -81,7 +86,10 @@ header {
     padding: 0px 10px 0px 0px;
     position: absolute;
     right: 0px;
-    color: lawngreen;
+}
+
+.links-top {
+    margin-left: 15px;
 }
 
 .img-general {
@@ -93,9 +101,38 @@ header {
     color: white;
     padding: 7px;
     display: block;
+    border-radius: 3px;
+    max-width: 180px;
     margin: 5px 0px 15px 0px;
     font-size: 0.8em;
     text-transform: uppercase;
+    transition-duration: 0.4s;  
+}
+
+.cta-contact:hover {
+    background-color: white;
+    color: #1554B6;
+    border: solid 1px #1554B6;
+}
+
+.cta-read-more {
+    background-color: #103867;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 5px 0px;
+    max-width: 75px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+}
+
+.cta-read-more:hover {
+    background-color: white;
+    color: #103867;
+    border: solid 1px #103867;
 }
 
 footer {
@@ -103,17 +140,28 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 20px;
+    margin-top: 80px;
 }
 
 .footer-links {
-    font-size: 0.8em;
+    font-size: 0.7em;
+}
+
+.footer-links__link {
+    list-style-type: none;
+    text-transform: uppercase;
     text-decoration: underline;
+}
+
+.footer-links__link:hover {
+    background-color:#1553b6d3;
+    padding: 5px;
 }
 
 .fa-instagram, 
 .fa-facebook-f, 
 .fa-snapchat-ghost {
     padding: 0px 5px;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }

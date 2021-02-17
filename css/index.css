@@ -21,7 +21,7 @@
 .home-explore {
     background-color: #EBF6FD;
     padding: 1px 20px 20px 20px;
-    margin: 20px;
+    margin: 30px 20px;
 }
 
 .home-h2 {
@@ -32,10 +32,16 @@
     margin-bottom: 40px;
 }
 
+.home-explore__li {
+    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
 .home-pages {
-    margin: 30px 60px;
+    margin: 30px 50px;
 }
 
 .home-pages__content {
-    margin: 0px 0px 40px 0px;
+    margin: 0px 0px 70px 0px;
 }
+

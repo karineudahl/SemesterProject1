@@ -20,9 +20,9 @@
             </div>
             <nav class="header-links__small-screen">
                 <ul>
-                    <li><a href="exhibition.html">Exhibition</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="visit.html">Visit</a></li>
+                    <li class="header-links"><a href="exhibition.html">Exhibition</a></li>
+                    <li class="header-links"><a href="events.html">Events</a></li>
+                    <li class="header-links"><a href="visit.html">Visit</a></li>
                 </ul>
             </nav> 
             <nav class="header-links__big-screen">
@@ -39,7 +39,6 @@
                 <a href="search.html"><i class="fas fa-search"></i></a>
             </div>
         </header>
-
         <main>
             <div class="home-top">
                 <div class="home-top__content">
@@ -53,25 +52,37 @@
                     <div class="home-explore__content-content">
                         <img src="images/explore1.jpg" class="img-general" alt="boy painting with VR-headset">
                         <h3>For Kids</h3>
-                        <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p>
-                        <p>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>
-                       <p>We also have the Young Stars club which meets once a week where you’ll get to explore and experiment with our team of experts. During the school holidays we run special holiday clubs. </p>
-                        
-                        <a href="contact.html" class="cta-contact">Message us for more information</a>
+                        <ul class="home-explore__li">
+                            <li>Looking to learn more about science?</li>
+                            <li>Learn about Newtonian physics from our bumper swing.</li>
+                            <li>Travel back in time and meet our resident Woolly Mammoth.</li>
+                            <li>Join our Young Stars club and experiment.</li>
+                            <li>Join our Holiday club.</li>
+                            <li>Our exhibits are designed to be accessible for interested minds.</li>
+                            <li>Make sure you come ready to learn and explore!</li>
+                        </ul>
+                        <a href="contact.html" class="cta-contact">Contact us for information</a>
                     </div>
                     <div class="home-explore__content-content">
                         <img src="images/explore2.jpg" class="img-general" alt="student looking in a microscope on a laboratorium">
                         <h3>For Teachers</h3>
-                        <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. </p>
-                        <p>Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them. Please get in touch with us to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
-                        <a href="contact.html" class="cta-contact">Message us for more information</a>
+                        <ul class="home-explore__li">
+                            <li>As a community-driven museum, we want to work with schools to create places of learning and exploring.</li>
+                            <li>We can give your students guided tours of the museum.</li>
+                            <li>We can teach them in our learning laboratory.</li>
+                            <li>We can provide great video presentations that will excite and inspire them.</li>
+                        </ul>
+                        <a href="contact.html" class="cta-contact">Contact us for information</a>
                     </div>
                     <div class="home-explore__content-content">
                         <img src="images/explore3.jpg" class="img-general" alt="female scientist with glasses looking in a pressure chamber">
                         <h3>For Researchers</h3>
-                        <p>Are you looking to get involved with our team of researchers and academics?</p>
-                        <p>Our museum offers various ways for you to use our resources and contribute towards them. We have online records, laboratory space, and a working relationship with a number of universities around the country. </p>
-                        <a href="contact.html" class="cta-contact">Message us for more information</a>
+                        <ul class="home-explore__li">
+                            <li>Are you looking to get involved with our team of researchers and academics?</li>
+                            <li>We offers various ways for you to use our resources and contribute towards them.</li>
+                            <li>We have online records, laboratory space, and a working relationship with a number of universities around the country.</li>
+                        </ul>
+                        <a href="contact.html" class="cta-contact">Contact us for information</a>
                     </div>
                 </div>
                 
@@ -82,24 +93,28 @@
                         <a href="exhibition.html">
                             <h2 class="home-h2">Exhibition Spaces</h2>
                             <img src="images/exhibition1.jpg" class="img-general" alt="person sitting in a yellow coveralls and a big white helmet in a spaceship">
+                            <a href="exhibition.html" class="cta-read-more">Read more</a>
                         </a>
                     </div>
                     <div class="home-pages__content-content">
                         <a href="events.html">
                             <h2 class="home-h2">Events</h2>
                             <img src="images/events1.jpg" class="img-general" alt="inside the museum, paintings on the walls, pink giraff in the inner left corner, a blue big spaceshipin to the left"> 
+                            <a href="events.html" class="cta-read-more">Read more</a>
                         </a>
                     </div>
                     <div class="home-pages__content-content">
                         <a href="involved.html">
                             <h2 class="home-h2">Get involved</h2>
                             <img src="images/involved1.jpg" class="img-general" alt="steel wires making a cube in the middel back on a grey background">
+                            <a href="involved.html" class="cta-read-more">Read more</a>
                         </a>
                     </div>
                     <div class="home-pages__content-content">
                         <a href="about.html">
                             <h2 class="home-h2">About us</h2>
                             <img src="images/about1.jpg" class="img-general" alt="litle girl looking at math formulas on a brown background">
+                            <a href="about.html" class="cta-read-more">Read more</a>
                         </a>
                     </div>
                 </div>
@@ -131,20 +146,14 @@
         </main>
         
         <footer>
-            <div class="footer-links">
-                <div>
-                    <a href="about.html">About us</a>
-                </div>
-                <div>
-                    <a href="visit.html">Visit us</a>
-                </div>
-                <div>
-                    <a href="involved.html">Get involved</a>
-                </div>
-                <div>
-                    <a href="contact.html">Contact us</a>
-                </div>  
-            </div>
+            <nav class="footer-links">
+                <ul>
+                    <li class="footer-links__link"><a href="visit.html">Visit</a></li>
+                    <li class="footer-links__link"><a href="involved.html">Involved</a></li>
+                    <li class="footer-links__link"><a href="about.html">About</a></li>
+                    <li class="footer-links__link"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
             <div class="footer-some">
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-facebook-f"></i>
