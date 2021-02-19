@@ -30,7 +30,7 @@
                     <li class="header-links"><a href="exhibition.html">Exhibition</a></li>
                     <li class="header-links"><a href="events.html">Events</a></li>
                     <li class="header-links"><a href="visit.html">Visit</a></li>
-                    <li class="header-links"><a href="involved.html">Get involved</a></li>
+                    <li class="header-links"><a href="involved.html"><b>Get involved</b></a></li>
                     <li class="header-links"><a href="about.html">About</a></li>
                     <li class="header-links"><a href="contact.html">Contact</a></li>
                 </ul>
@@ -43,35 +43,68 @@
             <nav>
                 <ul class="links-top">
                     <li class="header-links"><a href="index.html">Home /</a></li>
-                    <li class="header-links"><a href="exhibition.html">Get involved</a></li>
+                    <li class="header-links"><a href="exhibition.html"><b>Get involved</b></a></li>
                 </ul>
             </nav>
             <h1 class="h1-margin">Get Involved</h1>
             <div class="involved-background-picture"></div>
             <div class="involved">
-                <div class="involved-content">
+                <div class="involved-text">   
                     <h2>Support</h2>
-                    <p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community. </p>
-                    <p>You can also support us by donating items of interest to the museum’s collections. If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department here, and they will be able to assist you.</p>    
-                </div>
-                <div class="involved-content">
+                    <ul>
+                        <li><b>There are various ways you can support the museum.</b></li>
+                        <li>Donations are very welcome and are an important way we keep this museum open and accessible to the whole community</li>
+                        <li>You can also support us by donating items of interest to the museum’s collections</li>
+                        <li>Please fill out the form if you have some item or collection that you think others would enjoy</li>
+                    </ul>  
                     <h2>Volunteer</h2>
-                    <p>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come together to discuss ideas for future exhibits and strategies for the museum.</p>
-                    <p>You can help volunteer in a number of different spheres. Please contact us, if you’d like to find out more about how you can get involved.</p>    
-                </div>
-                <div class="involved-content">
+                    <ul>
+                        <li>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy.</li>
+                        <li><b>Volunteering perks:</b> see behind the scenes of a working museum, accsess to staff-only lectures, monthly lunch where all the staff come together to discuss ideas for future exhibits and strategies for the museum.</li>
+                        <li>Volunteer in a number of different spheres.</li>
+                        <li>Please fill out the form for more information</li>
+                    </ul>    
                     <h2>Internships</h2>
-                    <p>Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.</p>
-                    <p>You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.</p> 
+                    <ul>
+                        <li>Are you interested in working in a museum?</li>
+                        <li>Do you enjoy the fun and excitement of sharing the wonders of nature with people?</li>
+                        <li>Well you could be just the right person to enjoy an internship at the museum.</li>
+                        <li>You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.</li>
+                        <li>Pleace fill out the form if you are interested</li>
+                    </ul>
+                </div>
+                <div class="involved-sign-up">
+                    <h3>Interested in Supporting, Volunteering or an Internship?</h3>
+                    <p>Pleace fill out this form, and we will get back to you.</p>
+                    <p>Fields with * is mandatory.</p>
+                    <form action="submit.php" method="POST">
+                        <div class="involved-sign-up__form">
+                            <input type="checkbox" name="support" value="support" id="support"><label for="support">Support</label>
+                        </div>
+                        <div class="involved-sign-up__form">
+                            <input type="checkbox" name="volunteer" value="volunteer" id="volunteer"><label for="volunteer">Volunteer</label>
+                        </div>
+                        <div class="involved-sign-up__form">
+                            <input type="checkbox" name="internship" value="internship" id="internship"><label for="internship">Internship</label>
+                        </div>
+                        <label for="name" class="involved-sign-up__form">Name *</label>
+                        <input type="text" class="involved-sign-up__form" name="name" id="name" class="form-contact__input" placeholder="Name" required>
+                        <label for="phone" class="involved-sign-up__form">Phone *</label>
+                        <input type="tel" class="involved-sign-up__form" name="phone" id="phone" class="form-contact__input" placeholder="Phone" required>
+                        <label for="email" class="involved-sign-up__form">Mail *</label>
+                        <input type="text" name="email" id="email" class="involved-sign-up__form" placeholder="Mail" required>
+                        <label for="message" class="involved-sign-up__form">Message</label>
+                        <textarea name="message" id="message" class="involved-sign-up__form" rows="10" placeholder="Message"></textarea>
+                        <a href="involved-sent.html" class="cta-contact">Send</a>
+                    </form>
                 </div>
             </div>
-            
         </main>
         <footer>
-            <nav class="footer-links">
+            <nav class="footer-links"> 
                 <ul>
                     <li class="footer-links__link"><a href="visit.html">Visit</a></li>
-                    <li class="footer-links__link"><a href="involved.html">Involved</a></li>
+                    <li class="footer-links__link"><a href="involved.html"><b>Get involved</b></a></li>
                     <li class="footer-links__link"><a href="about.html">About</a></li>
                     <li class="footer-links__link"><a href="contact.html">Contact</a></li>
                 </ul>
@@ -82,6 +115,5 @@
                 <i class="fab fa-snapchat-ghost"></i>
             </div>
         </footer>     
-    
     </body>
 </html>

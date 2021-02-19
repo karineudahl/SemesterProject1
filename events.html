@@ -21,14 +21,14 @@
             <nav class="header-links__small-screen">
                 <ul>
                     <li class="header-links"><a href="exhibition.html">Exhibition</a></li>
-                    <li class="header-links"><a href="events.html">Events</a></li>
+                    <li class="header-links"><a href="events.html"><b>Events</b></a></li>
                     <li class="header-links"><a href="visit.html">Visit</a></li>
                 </ul>
             </nav> 
             <nav class="header-links__big-screen">
                 <ul>
                     <li class="header-links"><a href="exhibition.html">Exhibition</a></li>
-                    <li class="header-links"><a href="events.html">Events</a></li>
+                    <li class="header-links"><a href="events.html"><b>Events</b></a></li>
                     <li class="header-links"><a href="visit.html">Visit</a></li>
                     <li class="header-links"><a href="involved.html">Get involved</a></li>
                     <li class="header-links"><a href="about.html">About</a></li>
@@ -43,7 +43,7 @@
             <nav>
                 <ul class="links-top"> 
                     <li class="header-links"><a href="index.html">Home /</a></li>
-                    <li class="header-links"><a href="events.html">Events</a></li>
+                    <li class="header-links"><a href="events.html"><b>Events</b></a></li>
                 </ul>
             </nav>
             <h1 class="h1-margin">Events</h1>
@@ -74,7 +74,8 @@
                 </div>
                 <div class="events__sign-up">
                     <h3>Sign up</h3>
-                    <p>You have to sign up to join an event.</p>
+                    <p><strong>You have to sign up to join an event.</strong></p>
+                    <p>Fields with * is mandatory.</p>
                     <form action="submit.php" method="POST">
                         <div class="events__sign-up-form">
                             <input type="checkbox" name="professor-aeronautics" value="professor-aeronautics" id="professor-aeronautics"><label for="professor-aeronautics">Professor of Aeronautics</label>
@@ -85,29 +86,22 @@
                         <div class="events__sign-up-form">
                             <input type="checkbox" name="energetica-exhibition" value="energetica-exhibition" id="energetica-exhibition"><label for="energetica-exhibition">Energetica Exhibition</label>
                         </div>
-                        <label for="name" class="events__sign-up-form">Name</label>
+                        <label for="name" class="events__sign-up-form">Name *</label>
                         <input type="text" class="events__sign-up-form" name="name" id="name" class="form-contact__input" placeholder="Name" required>
-                        <label for="phone" class="events__sign-up-form">Phone</label>
+                        <label for="phone" class="events__sign-up-form">Phone *</label>
                         <input type="tel" class="events__sign-up-form" name="phone" id="phone" class="form-contact__input" placeholder="Phone" required>
-                        <div class="events__sign-up-form">
-                            <a href="sign-up.html" class="cta-read-more">Sign up</a>
-                            <input type="submit" value="Sign Up" class="cta-read-more">
+                        <div class="events-sign-up-button">
+                            <a href="events-signed-up.html" class="cta-contact">Sign up</a> 
                         </div>
-                        
                     </form>
                 </div>
             </div>
-            
-            
-            
-
-
         </main>
         <footer>
             <nav class="footer-links">
                 <ul>
                     <li class="footer-links__link"><a href="visit.html">Visit</a></li>
-                    <li class="footer-links__link"><a href="involved.html">Involved</a></li>
+                    <li class="footer-links__link"><a href="involved.html">Get involved</a></li>
                     <li class="footer-links__link"><a href="about.html">About</a></li>
                     <li class="footer-links__link"><a href="contact.html">Contact</a></li>
                 </ul>
@@ -118,6 +112,5 @@
                 <i class="fab fa-snapchat-ghost"></i>
             </div>
         </footer>   
-    
     </body>
 </html>

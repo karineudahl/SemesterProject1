@@ -26,15 +26,20 @@
 
 .events__sign-up {
     margin: 30px;
-    padding: 5px 10px;
+    padding: 5px 35px 5px 10px;
     background-color: #EBF6FD;
-    max-height: 400px;
+    max-height: 500px;
 }
 
 .events__sign-up-form {
     display: block;
-    width: 250px;
     padding: 5px;
     margin: 5px;
     font-size: 0.8em;
+    width: 100%;
 }
+
+.events-sign-up-button {
+    margin: 15px 5px;
+}
+  

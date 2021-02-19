@@ -10,9 +10,25 @@
 }
 
 .involved {
-    margin: 20px 30px 60px 30px;
+    margin: 30px;
 }
 
-.involved-content {
-    padding: 10px 40px;
+.involved-text li {
+    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    margin-left: 15px;
+}
+
+.involved-sign-up {
+    padding: 7px 35px 15px 10px;
+    margin-top: 40px;
+    background-color: #EBF6FD;
+    max-height: 750px;
+}
+
+.involved-sign-up__form {
+    display: block;
+    padding: 7px;
+    font-size: 0.8em;
+    width: 100%;
 }

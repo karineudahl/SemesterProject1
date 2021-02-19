@@ -32,9 +32,11 @@
     margin-bottom: 40px;
 }
 
-.home-explore__li {
+.home-explore__li,
+.home-visit__content li {
     font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8em;
+    margin-left: 15px;
 }
 
 .home-pages {

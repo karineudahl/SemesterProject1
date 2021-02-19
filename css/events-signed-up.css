@@ -7,6 +7,7 @@
 }
 
 .search-field {
-    padding: 20px 10px;
+    padding: 20px;
     flex-grow: 1;
+    background: url(../images/search.png) no-repeat right white;
 }

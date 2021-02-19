@@ -20,9 +20,9 @@
             </div>
             <nav class="header-links__small-screen">
                 <ul>
-                    <li><a href="exhibition.html">Exhibition</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="visit.html">Visit</a></li>
+                    <li class="header-links"><a href="exhibition.html">Exhibition</a></li>
+                    <li class="header-links"><a href="events.html">Events</a></li>
+                    <li class="header-links"><a href="visit.html">Visit</a></li>
                 </ul>
             </nav> 
             <nav class="header-links__big-screen">
@@ -32,7 +32,7 @@
                     <li class="header-links"><a href="visit.html">Visit</a></li>
                     <li class="header-links"><a href="involved.html">Get involved</a></li>
                     <li class="header-links"><a href="about.html">About</a></li>
-                    <li class="header-links"><a href="contact.html">Contact</a></li>
+                    <li class="header-links"><a href="contact.html"><b>Contact</b></a></li>
                 </ul>
             </nav> 
             <div class="header-icon">
@@ -43,38 +43,36 @@
             <nav>
                 <ul class="links-top">
                     <li class="header-links"><a href="index.html">Home /</a></li>
-                    <li class="header-links"><a href="visit.html">Contact us</a></li>
+                    <li class="header-links"><a href="visit.html"><b>Contact us</b></a></li>
                 </ul>
             </nav>
             <h1 class="h1-margin">Contact us</h1>
             <div class="contact-background-picture"></div>
-            <div class="contact-info">
+            <div class="contact">
                 <h2>Call us</h2>
                 <p>Phone number: 99 99 99 99</p>
                 <h2>Send us a message</h2>
-            </div>
-            <form action="submit.php" method="POST">
-                <div class="form-contact">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" class="form-contact__input" placeholder="Name" required>
-                    <label for="phone">Phone</label>
-                    <input type="tel" name="phone" id="phone" class="form-contact__input" placeholder="Phone">
-                    <label for="email">Mail</label>
-                    <input type="text" name="email" id="email" class="form-contact__input" placeholder="Mail" required>
-                <div>
-                    <label for="message" class="form-message__input">Message</label>
-                    <textarea name="message" id="message" cols="37" rows="15" placeholder="Message" required></textarea>
-                </div>
-                <a href="message-sent.html"><input type="submit" value="Send" class="cta-read-more"></a>
-            </form>
+                <p>Fields with * is mandatory.</p>
+                <form action="submit.php" method="POST">
+                    <label for="name" class="contact-form__input">Name *</label>
+                    <input type="text" class="contact-form__input" name="name" id="name" placeholder="Name" required>
+                    <label for="phone" class="contact-form__input">Phone</label>
+                    <input type="tel" class="contact-form__input" name="phone" id="phone" placeholder="Phone">
+                    <label for="email" class="contact-form__input">Mail *</label>
+                    <input type="text" class="contact-form__input" name="email" id="email" placeholder="Mail" required>
+                    <label for="message" class="contact-form__input">Message *</label>
+                    <textarea name="message" class="contact-form__input" id="message" rows="15" placeholder="Message" required></textarea>
+                    <a href="contact-sent.html" class="cta-contact">Send</a>
+                </form>
+            </div>         
         </main>
         <footer>
             <nav class="footer-links">
                 <ul>
                     <li class="footer-links__link"><a href="visit.html">Visit</a></li>
-                    <li class="footer-links__link"><a href="involved.html">Involved</a></li>
+                    <li class="footer-links__link"><a href="involved.html">Get involved</a></li>
                     <li class="footer-links__link"><a href="about.html">About</a></li>
-                    <li class="footer-links__link"><a href="contact.html">Contact</a></li>
+                    <li class="footer-links__link"><a href="contact.html"><b>Contact</b></a></li>
                 </ul>
             </nav>
             <div class="footer-some">
@@ -83,5 +81,5 @@
                 <i class="fab fa-snapchat-ghost"></i>
             </div>
         </footer>     
-    </body>
+    </body> 
 </html>
