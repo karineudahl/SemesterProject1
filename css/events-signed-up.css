@@ -1,13 +1,10 @@
-.search {
+.sign-up {
     background-color: #1553b66e;
     margin: 40px;
-    padding: 40px 20px 120px 20px;
-    display: flex;
-    flex-direction: column;
+    padding: 40px 20px 120px 40px;
 }
 
-.search-field {
-    padding: 20px;
-    flex-grow: 1;
-    background: url(../images/search.png) no-repeat right white;
+.sign-up__link {
+    text-decoration: underline;
+    padding: 50px 0px;
 }
