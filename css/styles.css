@@ -132,6 +132,7 @@ header {
     font-size: 0.8em;
     text-transform: uppercase;
     transition-duration: 0.4s;
+    font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cta-read-more:hover {
