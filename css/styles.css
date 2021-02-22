@@ -112,7 +112,7 @@ header {
     color: white;
     padding: 7px;
     display: block;
-    border: none;
+    border: solid 1px #1554B6;
     border-radius: 3px;
     margin: 5px 0px 15px 0px;
     font-size: 1em;
@@ -131,7 +131,7 @@ header {
     background-color: #103867;
     color: white;
     padding: 7px;
-    border: none;
+    border: #103867 1px solid;
     border-radius: 3px;
     display: block;
     margin: 5px 0px;
