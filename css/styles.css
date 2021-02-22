@@ -11,19 +11,24 @@ h1, h2, h3, a {
 
 p {
     font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 h1 {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 h2 {
-    font-size: 1.0em;
+    font-size: 1.4em;
 }
 
 h3 {
-    font-size: 0.8em;
+    font-size: 1.2em;
+}
+
+.home-explore__li li,
+.li-font-size {
+    font-size: 1.3em;
 }
 
 .h1-margin,
@@ -43,12 +48,13 @@ ul {
 .header-links {
     display: inline;
     padding: 0px 5px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-transform: uppercase;
 }
 
 .header-links:hover {
     background-color:#1553b6d3;
+    color: white;
     padding: 20px;
 }
 
@@ -81,13 +87,14 @@ header {
     display: none;
 }
 
-.fa-search {
+.fa-search,
+.fa-bars {
     color: #103867;
+    font-size: 1.3em;
 }
 
 .header-icon {
-    font-size: 1em;
-    padding: 0px 10px 0px 0px;
+    padding-right: 10px;
     position: absolute;
     right: 0px;
 }
@@ -107,11 +114,11 @@ header {
     display: block;
     border: none;
     border-radius: 3px;
-    max-width: 180px;
     margin: 5px 0px 15px 0px;
-    font-size: 0.8em;
+    font-size: 1em;
     text-transform: uppercase;
-    transition-duration: 0.4s;  
+    transition-duration: 0.4s; 
+    text-align: center; 
 }
 
 .cta-contact:hover {
@@ -128,11 +135,12 @@ header {
     border-radius: 3px;
     display: block;
     margin: 5px 0px;
-    max-width: 75px;
-    font-size: 0.8em;
+    max-width: 100px;
+    font-size: 1em;
     text-transform: uppercase;
     transition-duration: 0.4s;
     font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
 }
 
 .cta-read-more:hover {
