@@ -1,7 +1,7 @@
 .search {
     background-color: #1553b66e;
-    margin: 40px;
-    padding: 40px 20px 120px 20px;
+    margin: 40px 20px 240px 20px;
+    padding: 40px 20px 140px 20px;
     display: flex;
     flex-direction: column;
 }
@@ -9,5 +9,5 @@
 .search-field {
     padding: 20px;
     flex-grow: 1;
-    background: url(../images/search.png) no-repeat right white;
+    background: url(../images/search.png) no-repeat 98% white;
 }

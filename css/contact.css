@@ -11,6 +11,9 @@
 
 .contact {
     margin: 30px;
+    padding: 10px 55px 45px 35px;
+    background-color: #EBF6FD;
+    border-radius: 5%;
 }
 
 .contact h2 {
