@@ -88,7 +88,11 @@
         grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
     }
 
-    .visit-content, 
+    .visit-content {
+        margin: 50px 70px;
+    }
+    
+    
     .contact {
         margin: 30px 50px;
     }
@@ -186,11 +190,14 @@
 
     .involved-text {
         margin-right: 50px;
+        flex-basis: 70%;
     }
 
     .about, 
-    .contact {
-        max-width: 900px;
+    .contact,
+    .visit-content,
+    .involved {
+        max-width: 1000px;
         margin: 60px auto;
     }
 
@@ -206,7 +213,7 @@
 
     .visit-content__text {
         margin: 40px;
-        flex-basis: 33%;
+        flex-basis: 50%;
     }
 
     .events {
@@ -217,7 +224,7 @@
 
     .events__sign-up {
         width: 100%;
-        max-height: 430px;
+        max-height: 470px;
     }
 
 

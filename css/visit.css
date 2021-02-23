@@ -10,10 +10,11 @@
 }
 
 .visit-content {
-    margin: 20px;
+    margin: 30px;
 }
 
 .visit-content__text li {
     font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 15px;
+    list-style-type: circle;
 }
