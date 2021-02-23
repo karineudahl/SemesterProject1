@@ -16,34 +16,26 @@
     background-color: rgba(255, 255, 255, 0.692);
     padding: 15px 20px;
     border-radius: 8px;
-}
- 
-.home-explore {
-    background-color: #EBF6FD;
-    padding: 1px 20px 20px 20px;
-    margin: 30px 20px;
+    font-size: 0.8em;
 }
 
-.home-h2 {
+.home-explore h2,
+.home-pages__content h2 {
     text-align: center;
 }
 
-.home-explore__content {
-    margin-bottom: 40px;
+.home-explore__li {
+    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    list-style-type: circle;
 }
 
-.home-explore__li,
-.home-visit__content li {
-    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    margin-left: 15px;
+.home-explore {
+    background-color: #EBF6FD;
+    padding: 1px 20px 20px 20px;
+    margin: 50px 20px;
 }
 
 .home-pages {
-    margin: 30px 50px;
+    margin: 20px;
 }
-
-.home-pages__content {
-    margin: 0px 0px 70px 0px;
-}
-
