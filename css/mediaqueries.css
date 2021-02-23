@@ -53,10 +53,6 @@
         font-size: 1.3em;
     }
 
-    p {
-        font-size: 1.1em;
-    }
-
     .header-links__small-screen {
         display: none;
     }
@@ -137,7 +133,7 @@
     }
     
     p {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     
     .img-logo {
