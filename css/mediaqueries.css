@@ -1,4 +1,4 @@
-@media (max-width: 599px) {
+@media (max-width: 649px) {
     .header-links__big-screen {
         display: none;
     }
@@ -40,7 +40,7 @@
     }
 }
 
-@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 650px) and (max-width: 899px) {
     h1 {
         font-size: 1.6em;
     }
