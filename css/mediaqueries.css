@@ -92,17 +92,16 @@
         margin: 50px 70px;
     }
     
-    
-    .contact {
-        margin: 30px 50px;
-    }
-    
     .events-content {
         margin: 40px 80px;
     }
 
     .events__sign-up {
         margin: 40px;
+    }
+
+    .contact {
+        margin: 50px auto;
     }
 }
 
@@ -194,7 +193,6 @@
     }
 
     .about, 
-    .contact,
     .visit-content,
     .involved {
         max-width: 1000px;
@@ -227,5 +225,7 @@
         max-height: 470px;
     }
 
-
+    .contact {
+        margin: 50px auto;
+    }
 }

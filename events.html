@@ -77,28 +77,30 @@
                             <h2>Energetica Exhibition</h2>
                             <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
                         </div>
-                    </div>
+                    </div> 
                 </div>
                 <div class="events__sign-up">
                     <h3>Sign up to join</h3>
                     <form action="submit.php" method="POST">
                         <label for="checkbox" class="events__sign-up-form">Choose Event *</label>
-                        <div class="events__sign-up-form">
+                        <div class="events__sign-up-container">
                             <input type="checkbox" name="professor-aeronautics" value="professor-aeronautics" id="professor-aeronautics"><label for="professor-aeronautics">Professor of Aeronautics</label>
                         </div>
-                        <div class="events__sign-up-form">
+                        <div class="events__sign-up-container">
                             <input type="checkbox" name="night-in-museum" value="night-in-museum" id="night-in-museum"><label for="night-in-museum">Night in the Museum</label>
                         </div>
-                        <div class="events__sign-up-form">
+                        <div class="events__sign-up-container">
                             <input type="checkbox" name="energetica-exhibition" value="energetica-exhibition" id="energetica-exhibition"><label for="energetica-exhibition">Energetica Exhibition</label>
                         </div>
-                        <label for="name" class="events__sign-up-form">Name *</label>
-                        <input type="text" class="events__sign-up-form" name="name" id="name" placeholder="Name" required>
-                        <label for="phone" class="events__sign-up-form">Phone *</label>
-                        <input type="tel" class="events__sign-up-form" name="phone" id="phone" placeholder="Phone" required>
-                        <div class="events-sign-up-button">
-                            <a href="events-signed-up.html" class="cta-contact">Sign up</a> 
+                        <div class="events__sign-up-container">
+                            <input type="text" class="events__sign-up-input" name="name" id="name" required>
+                            <label for="name" class="events__sign-up-label">Name *</label>
                         </div>
+                        <div class="events__sign-up-container">
+                            <input type="tel" class="events__sign-up-input" name="phone" id="phone" required>
+                            <label for="phone" class="events__sign-up-label">Phone *</label>
+                        </div>
+                        <a href="events-signed-up.html" class="cta-contact">Sign up</a> 
                     </form>
                 </div>
             </div>

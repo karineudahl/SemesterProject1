@@ -54,12 +54,14 @@ header {
     display: inline;
     padding: 20px 3px;
     text-transform: uppercase;
+    
 }
 
 .header-links:hover,
 .fa-search:hover {
     background-color:#1553b6d3;
-    padding: 20px 3px;
+    padding: 20px 0px;
+    transition: 0.5s;
 }
 
 .header-links:active {
@@ -98,6 +100,7 @@ header {
     transition-duration: 0.4s; 
     text-align: center; 
     width: 100%;
+    transition: 1s;
 }
 
 .cta-contact:hover {
@@ -119,6 +122,7 @@ header {
     transition-duration: 0.4s;
     font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
     text-align: center; 
+    transition: 1s;
 }
 
 .cta-read-more:hover {
@@ -144,10 +148,6 @@ footer {
     font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.footer-links__link:hover {
-    background-color:#1553b6d3;
-}
-
 .fa-grip-lines-vertical {
     color: #103867;
     padding-right: 10px;
@@ -160,8 +160,10 @@ footer {
     font-size: 1.2em;
 }
 
+.footer-links__link:hover,
 .fa-instagram:hover, 
 .fa-facebook-f:hover, 
 .fa-snapchat-ghost:hover {
     background-color:#1553b6d3;
+    transition: 1s;
 }

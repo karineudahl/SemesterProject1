@@ -50,7 +50,7 @@
             <nav>
                 <ul class="links-top">
                     <li class="header-links"><a href="index.html">Home /</a></li>
-                    <li class="header-links"><a href="exhibition.html"><b>Get involved</b></a></li>
+                    <li class="header-links"><a href="involved.html"><b>Get involved</b></a></li>
                 </ul>
             </nav>
             <h1 class="h1-margin">Get Involved</h1>
@@ -81,26 +81,34 @@
                     </ul>
                 </div>
                 <div class="involved-sign-up">
-                    <h3>Pleace fill out if you want to get involved</h3>
                     <form action="submit.php" method="POST">
+                        <h3>Pleace fill out if you want to get involved</h3>
                         <label for="checkbox" class="involved-sign-up__form">Choose Involment *</label>
-                        <div class="involved-sign-up__form">
+                        <div class="involved-sign-up__container">
                             <input type="checkbox" name="support" value="support" id="support"><label for="support">Support</label>
-                        </div>
-                        <div class="involved-sign-up__form">
+                        </div> 
+                        <div class="involved-sign-up__container">
                             <input type="checkbox" name="volunteer" value="volunteer" id="volunteer"><label for="volunteer">Volunteer</label>
                         </div>
-                        <div class="involved-sign-up__form">
+                        <div class="involved-sign-up__container">
                             <input type="checkbox" name="internship" value="internship" id="internship"><label for="internship">Internship</label>
                         </div>
-                        <label for="name" class="involved-sign-up__form">Name *</label>
-                        <input type="text" class="involved-sign-up__form" name="name" id="name" placeholder="Name" required>
-                        <label for="phone" class="involved-sign-up__form">Phone *</label>
-                        <input type="tel" class="involved-sign-up__form" name="phone" id="phone" placeholder="Phone" required>
-                        <label for="email" class="involved-sign-up__form">Mail *</label>
-                        <input type="text" name="email" id="email" class="involved-sign-up__form" placeholder="Mail" required>
-                        <label for="message" class="involved-sign-up__form">Message</label>
-                        <textarea name="message" id="message" class="involved-sign-up__form" rows="10" placeholder="Message"></textarea>
+                        <div class="involved-sign-up__container">
+                            <input type="text" class="involved-sign-up__input" name="name" id="name" required>
+                            <label for="name" class="involved-sign-up__label">Name *</label>
+                        </div>
+                        <div class="involved-sign-up__container">
+                            <input type="tel" class="involved-sign-up__input" name="phone" id="phone" required>
+                            <label for="phone" class="involved-sign-up__label">Phone *</label>
+                        </div>
+                        <div class="involved-sign-up__container">
+                            <input type="text" name="email" id="email" class="involved-sign-up__input" required>
+                            <label for="email" class="involved-sign-up__label">Mail *</label>
+                        </div>
+                        <div class="involved-sign-up__container">
+                            <textarea name="message" id="message" class="involved-sign-up__texarea" rows="10"></textarea>
+                            <label for="message" class="involved-sign-up__label">Message</label>
+                        </div>
                         <a href="involved-sent.html" class="cta-contact">Send</a>
                     </form>
                 </div>
