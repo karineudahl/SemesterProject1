@@ -87,6 +87,21 @@ header {
     width: 100%;
 }
 
+.sent {
+    background-color: #1553b66e;
+    margin: 40px 20px 240px 20px;
+    padding: 40px 20px 120px 40px;
+}
+
+.sent p {
+    padding: 20px 0px;
+}
+
+.sent__link {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 .cta-contact {
     background-color: #008A00;
     color: white;
@@ -130,6 +145,62 @@ header {
     background-color: white;
     color: #103867;
     border: solid 1px #103867;
+}
+
+.contact-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.contact-container__label {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    transition: 2s all;
+    width: 100%;
+}
+
+.contact-container__label::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 0%;
+    background: #103867;
+    height: 2px;
+    transition: 2s all;
+}
+
+.contact-container__input:focus + .contact-container__label::after {
+    width: 100%;
+}
+
+.contact-container__input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin-bottom: 15px;
+    padding: 8px 0px 0px 5px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-container textarea {
+    padding: 25px 0px 0px 5px;
+    width: 100%; 
+    height: 140px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-container__input:focus + .contact-container__label, .contact-container__input:valid + .contact-container__label {
+    font-size: 0.8em;
+}
+
+.contact-container__input:valid + .contact-container__label::after {
+    width: 100%;
 }
 
 footer {
