@@ -1,24 +1,24 @@
 .about-background-image {
-    background: url(../images/about1.jpg);
-    min-height: 50vh;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: center;
-    min-width: 100%;
-} 
+  background: url(../images/about1.jpg);
+  min-height: 50vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  min-width: 100%;
+}
 
 .about-text {
-    margin: 30px;
+  margin: 100px 30px;
 }
 
 .about-images {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-    margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  margin: 30px;
 }
 
 .about-images__content {
-    margin: 10px 15px
+  margin: 10px 15px;
 }

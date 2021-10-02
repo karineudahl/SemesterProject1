@@ -1,41 +1,70 @@
 .home-top {
-    background-image: url(../images/home.jpg);
-    min-height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    min-width: 100%;
-    position: relative;
+  background-image: url(../images/home.jpg);
+  min-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-width: 100%;
+  position: relative;
 }
 
 .home-top__content {
-    position: absolute;
-    top: 70px;
-    left: 10px;
-    background-color: rgba(255, 255, 255, 0.692);
-    padding: 15px 20px;
-    border-radius: 8px;
-    font-size: 0.8em;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.692);
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 0.8em;
 }
 
 .home-explore h2,
 .home-pages__content h2 {
-    text-align: center;
+  text-align: center;
 }
- 
+
 .home-explore__li {
-    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 15px;
-    list-style-type: circle;
+  font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 15px;
+  list-style-type: circle;
 }
 
 .home-explore {
-    background-color: #EBF6FD;
-    padding: 1px 20px 20px 20px;
-    margin: 50px 20px;
+  background-color: #ebf6fd;
+  padding: 1px 20px 20px 20px;
+  margin: 100px 20px 50px 20px;
 }
 
 .home-pages {
-    margin: 20px;
+  margin: 200px 20px 20px 20px;
+}
+
+.home-pages__content {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.cta-read-more {
+  background-color: #103867;
+  color: white;
+  padding: 7px;
+  border: #103867 1px solid;
+  border-radius: 3px;
+  display: block;
+  margin: 20px 0px;
+  max-width: 100px;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+  font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  transition: 1s;
+  position: absolute;
+  right: 0px;
+}
+
+.cta-read-more:hover {
+  background-color: white;
+  color: #103867;
+  border: solid 1px #103867;
 }

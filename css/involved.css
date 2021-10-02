@@ -1,28 +1,31 @@
 .involved-background-picture {
-    background: url(../images/involved1.jpg);
-    min-height: 50vh;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    min-width: 100%;
+  background: url(../images/involved1.jpg);
+  min-height: 50vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-width: 100%;
 }
 
 .involved {
-    margin: 30px;
+  margin: 30px;
+  position: relative;
 }
 
 .involved-text li {
-    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 15px;
-    list-style-type: circle;
+  font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 15px;
+  list-style-type: circle;
 }
 
-.involved-sign-up {
-    padding: 15px 55px 25px 35px;
-    background-color: #EBF6FD;
-    border-radius: 10px;
-    margin-top: 50px;
+.involved-text h2 {
+  margin-top: 60px;
 }
 
+.cta-contact {
+  position: absolute;
+  right: 0px;
+  margin: 50px 0px 100px 0px;
+}

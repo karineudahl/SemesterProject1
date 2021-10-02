@@ -1,25 +1,88 @@
 .contact-background-picture {
-    background: url(../images/contact1.jpg);
-    min-height: 50vh;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center;
-    min-width: 100%;
+  background: url(../images/contact1.jpg);
+  min-height: 50vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  min-width: 100%;
 }
 
-.contact {
-    margin: 30px;
-    font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 500px;
+.contact-form {
+  margin: 30px;
+  position: relative;
 }
 
-form {
-    margin-top: 50px;
+.contact-container {
+  position: relative;
+  margin-bottom: 20px;
 }
 
-.contact-container__input,
-.contact-container textarea {
-    background-color: #F0F0F0;
+.contact-container__label-message,
+.contact-container__label {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  transition: 1s all;
+  width: 100%;
+}
+
+.contact-container__input {
+  height: 47px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 0px 0px 5px;
+  font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-container__textarea {
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-radius: 5px;
+  padding: 20px 0px 0px 5px;
+  font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-container__input:focus + .contact-container__label {
+  font-size: 13px;
+}
+
+.contact-container__textarea,
+.contact-container__input:focus {
+  outline: none;
+}
+
+.cta-contact {
+  background-color: #008a00;
+  padding: 7px 25px;
+  border-radius: 5px;
+  color: white;
+  border: solid 1px #008a00;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0px;
+  box-shadow: 4px 4px 4px lightgrey;
+}
+
+.cta-contact:hover {
+  background-color: white;
+  color: #008a00;
+  font-weight: bold;
+}
+
+.form-error {
+  color: red;
+  display: none;
+}
+
+.message-success {
+  background-color: #008a00;
+  margin: 100px auto;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
 }

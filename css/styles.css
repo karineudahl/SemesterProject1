@@ -1,254 +1,173 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
 }
 
-h1, h2, h3, a {
-    font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
+h1,
+h2,
+h3,
+a {
+  font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
+  font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
 }
 
 h1 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 h2 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 h3 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .h1-margin {
-    margin-left: 20px;
-}
-
-.links-top {
-    margin-left: 15px;
+  margin: 60px 0px 60px 30px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
 
-ul {
-    padding: 0px;
+.logo {
+  height: 60px;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px;
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 30px;
+}
+
+.nav-ul li {
+  display: inline;
+}
+
+.nav-ul li a {
+  padding: 20px;
+}
+
+.nav-ul li a:hover {
+  background-color: #1553b6d3;
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.hamburger {
+  display: none;
+}
+
+.links-top {
+  padding-inline-start: 30px;
+}
+
+.links-top a {
+  font-size: 0.8em;
+}
+
+.active-link {
+  color: grey;
 }
 
 .header-links {
-    display: inline;
-    padding: 20px 3px;
-    text-transform: uppercase;
+  display: inline;
+  padding: 20px 3px;
 }
 
 .header-links a:hover {
-    color: white;
+  color: white;
 }
 
-.header-links:hover,
-.fa-search:hover {
-    background-color:#1553b662;
-    color: white;
-}
-
-.img-logo {
-    max-height: 45px;
-}
-
-.fa-search,
-.fa-bars {
-    color: #103867;
-    font-size: 1.3em;
-    padding: 20px 5px;
-}
-
-.header-icon {
-    padding-right: 20px;
-    position: absolute;
-    right: 0px;
+.header-links:hover {
+  background-color: #1553b662;
+  color: white;
 }
 
 .img-general {
-    width: 100%;
-}
-
-.sent {
-    background-color: #1553b66e;
-    margin: 40px 20px 240px 20px;
-    padding: 40px 20px 120px 40px;
-}
-
-.sent p {
-    padding: 20px 0px;
-}
-
-.sent__link {
-    text-decoration: underline;
-    text-transform: uppercase;
+  width: 100%;
 }
 
 .cta-contact {
-    background-color: #008A00;
-    color: white;
-    padding: 7px;
-    display: block;
-    border: solid 1px #008A00;
-    border-radius: 3px;
-    text-transform: uppercase;
-    transition-duration: 0.4s; 
-    text-align: center; 
-    width: 100%;
-    font-weight: 700;
-    max-width: 300px;
-    transition: 1s;
-    margin: auto;
+  background-color: #008a00;
+  color: white;
+  padding: 7px;
+  display: block;
+  border: solid 1px #008a00;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  max-width: 300px;
+  transition: 1s;
+  margin: auto;
 }
 
 .cta-contact:hover {
-    background-color: white;
-    color: #008A00;
-    border: solid 1px #008A00;
-}
-
-.cta-read-more {
-    background-color: #103867;
-    color: white;
-    padding: 7px;
-    border: #103867 1px solid;
-    border-radius: 3px;
-    display: block;
-    margin: 5px 0px;
-    max-width: 100px;
-    text-transform: uppercase;
-    transition-duration: 0.4s;
-    font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center; 
-    transition: 1s;
-}
-
-.cta-read-more:hover {
-    background-color: white;
-    color: #103867;
-    border: solid 1px #103867;
-}
-
-.contact-container {
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.contact-container__label {
-    position: absolute;
-    top: 0px;
-    left: 5px;
-    transition: 2s all;
-    width: 100%;
-}
-
-.contact-container__label::after {
-    content: "";
-    position: absolute;
-    top: 45px;
-    left: 0px;
-    width: 0%;
-    background: #103867;
-    height: 2px;
-    transition: 2s all;
-}
-
-.contact-container__input:focus + .contact-container__label::after {
-    width: 100%;
-}
-
-.contact-container__input {
-    width: 100%;
-    height: 40px;
-    border: none;
-    margin-bottom: 15px;
-    padding: 8px 0px 0px 5px;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-.contact-container textarea {
-    padding: 25px 0px 0px 5px;
-    width: 100%; 
-    height: 140px;
-    border: none;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-.contact-container__input:focus + .contact-container__label, .contact-container__input:valid + .contact-container__label {
-    font-size: 0.8em;
-}
-
-.contact-container__input:valid + .contact-container__label::after {
-    width: 100%;
+  background-color: white;
+  color: #008a00;
+  border: solid 1px #008a00;
 }
 
 footer {
-    background-color: #F0F0F0;
-    padding: 30px 40px;
-    margin-top: 80px;
-    font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f0f0f0;
+  padding: 30px 40px;
+  margin-top: 400px;
+  font-family: "PT Serif", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .footer-container p {
-    margin: 2px;
+  margin: 2px;
 }
 
 .footer-container h3 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .footer-links__link {
-    list-style-type: none;
-    text-decoration: underline;
-    padding: 5px;
+  list-style-type: none;
+  text-decoration: underline;
+  padding: 5px;
 }
 
 .fa-grip-lines-vertical {
-    color: #103867;
-    padding-right: 10px;
+  color: #103867;
+  padding-right: 10px;
 }
 
-.fa-instagram, 
-.fa-facebook-f, 
+.fa-instagram,
+.fa-facebook-f,
 .fa-snapchat-ghost {
-    padding: 5px;
-    font-size: 1.2em;
+  padding: 5px;
+  font-size: 1.2em;
 }
 
 .footer-links__link a:hover {
-    color: white;
+  color: white;
 }
 
 .footer-links__link:hover,
-.fa-instagram:hover, 
-.fa-facebook-f:hover, 
+.fa-instagram:hover,
+.fa-facebook-f:hover,
 .fa-snapchat-ghost:hover {
-    background-color:#1553b6d3;
-    transition: 1s;
-    color: white;
+  background-color: #1553b6d3;
+  transition: 1s;
+  color: white;
+  border-radius: 5px;
 }

@@ -16,42 +16,24 @@
     </head>
     <body>
         <header>
-            <div>
-                <a href="index.html"><img src="images/logo.png" class="img-logo" alt="logo contains of tree sircles with a blue sun in the middle and the community science museum text on the side"></a>
-            </div>
-            <div class="header-links__small-screen">
-                <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-                <input type="checkbox" id="hamburger-menu">
-                <nav class="hamburger-links">
-                    <ul>
-                        <li class="hamburger-links-link"><a href="exhibition.html">Exhibition</a></li>
-                        <li class="hamburger-links-link"><a href="events.html">Event</a></li>
-                        <li class="hamburger-links-link"><a href="visit.html">Visit</a></li>
-                        <li class="hamburger-links-link"><a href="involved.html">Get involved</a></li>
-                        <li class="hamburger-links-link"><a href="about.html">About</a></li>
-                        <li class="hamburger-links-link"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div> 
-            <nav class="header-links__big-screen">
-                <ul>
-                    <li class="header-links"><a href="exhibition.html">Exhibition</a></li>
-                    <li class="header-links"><a href="events.html">Event</a></li>
-                    <li class="header-links"><a href="visit.html">Visit</a></li>
-                    <li class="header-links"><a href="involved.html">Get involved</a></li>
-                    <li class="header-links"><a href="about.html">About</a></li>
-                    <li class="header-links"><a href="contact.html">Contact</a></li>
+            <nav class="nav-container">
+                <a href="index.html"><img src="images/logo.png" class="logo" alt="logo contains of tree sircles with a blue sun in the middle and the community science museum text on the side"></a>
+                <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+                <ul class="nav-ul" id="nav-ul">
+                    <li><a href="exhibition.html">Exhibition</a></li>
+                    <li><a href="events.html">Event</a></li>
+                    <li><a href="visit.html">Visit</a></li>
+                    <li><a href="involved.html" class="active-link">Get involved</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav> 
-            <div class="header-icon">
-                <a href="search.html"><i class="fas fa-search"></i></a>
-            </div>
+            </nav>
         </header>
         <main>
             <nav>
                 <ul class="links-top">
                     <li class="header-links"><a href="index.html">Home /</a></li>
-                    <li class="header-links"><a href="involved.html">Get involved</a></li>
+                    <li class="header-links"><a href="involved.html" class="active-link">Get involved</a></li>
                 </ul>
             </nav>
             <h1 class="h1-margin">Get Involved</h1>
@@ -63,14 +45,13 @@
                         <li>There are various ways you can support the museum.</li>
                         <li>Donations are very welcome and are an important way we keep this museum open and accessible to the whole community</li>
                         <li>You can also support us by donating items of interest to the museum’s collections</li>
-                        <li>Please fill out the form if you have some item or collection that you think others would enjoy</li>
+                        <li>Contact us if you have some item or collection that you think others would enjoy</li>
                     </ul>  
                     <h2>Volunteer</h2>
                     <ul>
                         <li>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy.</li>
                         <li>Volunteering perks: see behind the scenes of a working museum, accsess to staff-only lectures, monthly lunch where all the staff come together to discuss ideas for future exhibits and strategies for the museum.</li>
                         <li>Volunteer in a number of different spheres.</li>
-                        <li>Please fill out the form for more information</li>
                     </ul>    
                     <h2>Internships</h2>
                     <ul>
@@ -78,41 +59,9 @@
                         <li>Do you enjoy the fun and excitement of sharing the wonders of nature with people?</li>
                         <li>Well you could be just the right person to enjoy an internship at the museum.</li>
                         <li>You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.</li>
-                        <li>Pleace fill out the form if you are interested</li>
                     </ul>
                 </div>
-                <div class="involved-sign-up">
-                    <form action="submit.php" method="POST">
-                        <h3>Pleace fill out if you want to get involved</h3>
-                        <label for="checkbox">Choose Involment *</label>
-                        <div class="contact-container">
-                            <input type="checkbox" name="support" value="support" id="support"><label for="support">Support</label>
-                        </div> 
-                        <div class="contact-container">
-                            <input type="checkbox" name="volunteer" value="volunteer" id="volunteer"><label for="volunteer">Volunteer</label>
-                        </div>
-                        <div class="contact-container">
-                            <input type="checkbox" name="internship" value="internship" id="internship"><label for="internship">Internship</label>
-                        </div>
-                        <div class="contact-container">
-                            <input type="text" class="contact-container__input" name="name" id="name" required>
-                            <label for="name" class="contact-container__label">Name *</label>
-                        </div>
-                        <div class="contact-container">
-                            <input type="tel" class="contact-container__input" name="phone" id="phone" required>
-                            <label for="phone" class="contact-container__label">Phone *</label>
-                        </div>
-                        <div class="contact-container">
-                            <input type="text" class="contact-container__input" name="email" id="email" required>
-                            <label for="email" class="contact-container__label">Mail *</label>
-                        </div>
-                        <div class="contact-container">
-                            <textarea name="message" id="message" class="contact-container__texarea" rows="10"></textarea>
-                            <label for="message" class="contact-container__label">Message</label>
-                        </div>
-                        <a href="involved-sent.html" class="cta-contact">Send</a>
-                    </form>
-                </div>
+                <a href="contact.html" class="cta-contact">Contact us</a>
             </div>
         </main>
         <footer>
@@ -176,5 +125,7 @@
                 </div>
             </div>
         </footer> 
+
+        <script src="js/hamburger.js"></script>
     </body>
 </html>
